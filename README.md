@@ -1,6 +1,6 @@
 # Adressbuch1854
 
-### This repository describes differents task to create project Adressbuch of DHI Paris
+### This repository describes differents tasks to create project Adressbuch of DHI Paris
 
 Relaunch of http://adressbuch1854.dhi-paris.fr
 
