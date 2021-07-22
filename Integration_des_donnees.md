@@ -23,6 +23,6 @@ Les tables ont été importées avec succès, pour vérifier que les jointures �
 
  * *voir [ici](Nettoyage_Open_Refine.md) l'étape précédente sur le nettoyage des données avec Open Refine.*
  * *les tables SQL de Adressbuch sont disponibles [ici](adressbuch1854.sql)*
- * *les tables CSV de Adressbuch sont disponibles [ic](adressbuch1854.csv)*
+ * *les tables CSV de Adressbuch sont disponibles [ici](adressbuch1854.csv)*
  * *voir [ici](Interconnexion_Cakephp_BaseSQL.md) la suite du projet avec l'interconnexion entre Cakephp et la base SQL*
 
