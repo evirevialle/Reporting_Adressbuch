@@ -19,7 +19,7 @@ Git Repository: https://github.com/cakephp/cakephp
 
 
 ## Summary
-* **1) [Nettoyage Open Refine](Nettoyage_Open_Refine.md)**
-* **2) [Integration des donnees](Integration_des_donnees.md)**
-* **3) [Interconnexion de la base SQL et de Cake PHP](Interconnexion_Cakephp_BaseSQL.md)**
-* **4) [Numerisation Adressbuch](Numerisation.md)**
+* **[Nettoyage Open Refine](Nettoyage_Open_Refine.md)**
+* **[Integration des donnees](Integration_des_donnees.md)**
+* **[Interconnexion de la base SQL et de Cake PHP](Interconnexion_Cakephp_BaseSQL.md)**
+* **[Numerisation Adressbuch](Numerisation.md)**
