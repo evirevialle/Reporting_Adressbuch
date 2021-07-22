@@ -13,4 +13,4 @@ Pour la mise en place des balises Zotero, des fonctions pour chaque élément de
 Le principe est le même pour la visualisation des images. Une fonction PHP permet la construction d'une balise <img> en HTML avec différentes variables. Ces variables modifient le numéro de page numérisé selon la personne ou companie sélectionées. Les images sont d'abord affichées en vignette avec les autres informations dans une dimension et résolution réduites. Le visiteur peut choisir de visualiser la page en HD en la sélectionnant ou en cliquant sur le bouton prévu à cet effet. L'image s'ouvre alors dans une nouvelle fenêtre dans une haute définition destiné à la consultation ou à l'impression.  
   
 _voir [ici](Adressbuch/templates/functions) les fonctions et variables créés dans le cadre du projet Adressbuch_  
-_voir [ici](Extraction_metadonees_redimensionnement) l'étape précédente du projet Adressbuch_
+_voir [ici](Extraction_metadonnees_redimensionnement) l'étape précédente du projet Adressbuch_
