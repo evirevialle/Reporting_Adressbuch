@@ -38,3 +38,4 @@ Dans cette commande, les images passent en 72dpi avec une taille de 400x800 et e
 
 * *Les métadonnées sont disponible [ici](Adressbuch_metadata.csv) en CSV.*
 * *voir [ici](Numerisation.md) l'étape précédente de numérisation de Adressbuch*
+* _voir [ici](functions_php.md) l'étape suivante pour la création de fonctions en php_
