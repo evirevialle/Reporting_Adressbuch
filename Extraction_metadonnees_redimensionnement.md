@@ -36,5 +36,5 @@ mogrify -units pixelsperinch -density 72x72 -resize 400x800 -path chemin_des_nou
   
 Dans cette commande, les images passent en 72dpi avec une taille de 400x800 et elles sont enregistrées dans un nouveau dossier. 
 
-* *Les métadonnées sont disponible [ici](/Tables_CSV_Adressbuch/Adressbuch_metadata.csv) en CSV.*
+* *Les métadonnées sont disponible [ici](Adressbuch_metadata.csv) en CSV.*
 * *voir [ici](Numerisation.md) l'étape précédente de numérisation de Adressbuch*
