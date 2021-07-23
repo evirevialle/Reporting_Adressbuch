@@ -23,3 +23,5 @@ Git Repository: https://github.com/cakephp/cakephp
 * **[Integration des donnees](Integration_des_donnees.md)**
 * **[Interconnexion de la base SQL et de Cake PHP](Interconnexion_Cakephp_BaseSQL.md)**
 * **[Numerisation Adressbuch](Numerisation.md)**
+* **[Extraction et redimensionnement](Extraction_metadonnees_redimensionnement.md)**
+* **[Création de fonctions en PHP](functions_php.md)**
