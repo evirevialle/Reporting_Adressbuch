@@ -2,7 +2,7 @@
 -----------------------------------------------------------------
 **1) Valorisation des données de recherche**
 
-Pour valoriser le projet Adressbuch ainsi que ces données, il a été mis à la disposition des chercheurs la possiblité d'enregistrer les informations de chaque personne sur Zotero. Puis, pour valoriser les données de recherche, le Département des Humanités Numériques met à disposition les numérisations pour pouvoir consulter le document d'origine sur l'interface.  
+Pour valoriser le projet Adressbuch ainsi que ces données, il a été mis à la disposition des chercheurs la possiblité d'enregistrer les informations de chaque personne sur Zotero. Puis, pour mettre en avant la source du projet _Adressbuch_ le Département des Humanités Numériques met à disposition les numérisations pour pouvoir consulter le document d'origine sur l'interface.  
 Dans une démarche historique, il est essentiel pour les chercheurs de pouvoir avoir accès au document primaire. 
 
 **2) Les balises span**
