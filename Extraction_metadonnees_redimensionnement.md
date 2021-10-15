@@ -24,7 +24,7 @@ ligne de commande [Ubuntu](https://doc.ubuntu-fr.org/accueil). Sans cette foncti
 
 **II) Redimensionnemnent**
 
-Pour modifier la résolution et la taille des numerisations plusieurs logiciels étaient disponible mais cette partie s'est aussi effectuée en ligne de commande. GIMP est un bon logiciel qui propose de redimensionner les images mais seulement modifier la taille et non la résolution. Avec un corpus de 258 pages, nous ne pouvions pas le faire image par image comme le propose GIMP.  
+Pour modifier la résolution et la taille des numerisations plusieurs logiciels étaient disponible mais cette partie s'est aussi effectuée en ligne de commande. GIMP est un bon logiciel qui propose de redimensionner les images mais seulement modifier la taille et non la résolution. Avec un corpus de 242 pages, nous ne pouvions pas le faire image par image comme le propose GIMP.  
 Le [pacakage imagemagick](https://doc.ubuntu-fr.org/imagemagick) disponible avec Ubuntu permet le traitement d'images par lot pour la résolution et la taille des images.  
 La commande qui suit permet de changer la résolution et les dimensions :   
 mogrify -units pixelsperinch -density 72x72 -resize 400x800 -path chemin_des_nouvelles_images. 
