@@ -17,3 +17,4 @@ Le principe est le même pour la visualisation des images. Une fonction PHP perm
 * _voir [ici](https://github.com/evirevialle/Adressbuch1854/tree/master/templates/functions) les fonctions et variables créées dans le cadre du projet Adressbuch_  
 * _voir [ici](Extraction_metadonnees_redimensionnement.md) l'étape précédente d'extraction et de redimensionnement_
 * _voir sur [Zenodo](https://doi.org/10.5281/zenodo.5524880) les archives contenant les métadonnées et les scans de Adressbuch_
+* <em>Voir les métadonnées et archives sur <a href="https://doi.org/10.5281/zenodo.5524880" target="blank">Zenodo</a></em>
