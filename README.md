@@ -10,6 +10,8 @@ Website of the DHIP: https://www.dhi-paris.fr/home.html
 
 Website of the Department: https://www.dhi-paris.fr/forschung/digital-humanities.html
 
+Full sources : https://doi.org/10.5281/zenodo.5524880
+
 
 Development Framework: CakePHP Version 4.0
 
