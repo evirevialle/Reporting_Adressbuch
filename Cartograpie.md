@@ -1,6 +1,6 @@
 ## Cartographie du projet Adressbuch
 
-<img src=" "</img>
+<img src=" /../screenshots/map.png" width="70%" title="map_adressbuch"></img>
 
 ### L'étude Diachronique dans un projet historique
 
