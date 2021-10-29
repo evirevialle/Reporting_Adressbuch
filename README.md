@@ -27,3 +27,4 @@ Git Repository: https://github.com/cakephp/cakephp
 * **[Numerisation Adressbuch](Numerisation.md)**
 * **[Extraction et redimensionnement](Extraction_metadonnees_redimensionnement.md)**
 * **[Création de fonctions en PHP](functions_php.md)**
+* **[Mise en place de la cartographie](Cartographie.md)**
