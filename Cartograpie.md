@@ -36,8 +36,8 @@ Pour enrichir la carte interractive, de nouvelles fonctionnalités ont été ajo
 
 
 
-. Johanna Drucker. Humanities Approaches to Graphical Display, in : Digital Humanities Quarterly 5.1 (2011), p. 1-21.
-. Jacques Hillairet, Dictionnaire Historique des rues de Paris, 1963
+*  Johanna Drucker. Humanities Approaches to Graphical Display, in : Digital Humanities Quarterly 5.1 (2011), p. 1-21.  
+*  Jacques Hillairet, Dictionnaire Historique des rues de Paris, 1963
 
 
 
