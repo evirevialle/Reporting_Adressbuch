@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.9.5deb2
+- https://www.phpmyadmin.net
+-
+- Hôte : localhost:3306
+- Généré le : jeu. 25 nov. 2021 à 14:11
+- Version du serveur :  8.0.27-0ubuntu0.20.04.1
+- Version de PHP : 7.4.3
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="adressbuch1854" collation="utf8mb4_general_ci" charset="utf8mb4">
+            <pma:table name="persons">
+                CREATE TABLE `persons` (
+                  `id` int NOT NULL AUTO_INCREMENT,
+                  `surname` varchar(64) DEFAULT NULL,
+                  `first_name` varchar(64) DEFAULT NULL,
+                  `gender` enum('M','F') DEFAULT NULL,
+                  `title` varchar(42) DEFAULT NULL,
+                  `name_predicate` varchar(42) DEFAULT NULL,
+                  `specification_verbatim` varchar(128) DEFAULT NULL,
+                  `profession_verbatim` varchar(170) DEFAULT NULL,
+                  `profession_unified` varchar(170) DEFAULT NULL,
+                  `de_l_institut` tinyint(1) DEFAULT NULL,
+                  `notable_commercant` tinyint(1) DEFAULT NULL,
+                  `bold` tinyint(1) DEFAULT NULL,
+                  `advert` tinyint(1) DEFAULT NULL,
+                  `ldh_rank_id` int DEFAULT NULL,
+                  `military_status_id` int DEFAULT NULL,
+                  `social_status_id` int DEFAULT NULL,
+                  `occupation_status_id` int DEFAULT NULL,
+                  `prof_category_id` int DEFAULT NULL,
+                  PRIMARY KEY (`id`),
+                  KEY `prof_category_id` (`prof_category_id`),
+                  KEY `social_status_id` (`social_status_id`),
+                  KEY `ldh_rank_id` (`ldh_rank_id`),
+                  KEY `occupation_status_id` (`occupation_status_id`),
+                  KEY `military_status_id` (`military_status_id`),
+                  CONSTRAINT `persons_ibfk_1` FOREIGN KEY (`prof_category_id`) REFERENCES `prof_categories` (`id`),
+                  CONSTRAINT `persons_ibfk_2` FOREIGN KEY (`social_status_id`) REFERENCES `social_statuses` (`id`),
+                  CONSTRAINT `persons_ibfk_3` FOREIGN KEY (`ldh_rank_id`) REFERENCES `ldh_ranks` (`id`),
+                  CONSTRAINT `persons_ibfk_4` FOREIGN KEY (`occupation_status_id`) REFERENCES `occupation_statuses` (`id`),
+                  CONSTRAINT `persons_ibfk_5` FOREIGN KEY (`military_status_id`) REFERENCES `military_statuses` (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=4773 DEFAULT CHARSET=utf8mb3;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Base de données : 'adressbuch1854'
+    -->
+    <database name="adressbuch1854">
+        <!-- Table persons -->
+        <table name="persons">
+            <column name="surname">Britsch</column>
+            <column name="first_name">NULL</column>
+            <column name="profession_verbatim">Weinwirth</column>
+            <column name="houseno">3</column>
+            <column name="name_old_clean">Rue De La Chapelle</column>
+            <column name="name_new">Rue Riquet</column>
+            <column name="id">19</column>
+            <column name="name">Selbständig</column>
+        </table>
+        <table name="persons">
+            <column name="surname">Gervin</column>
+            <column name="first_name">NULL</column>
+            <column name="profession_verbatim">Weinwirth</column>
+            <column name="houseno">60</column>
+            <column name="name_old_clean">Boulevard De La Butte Chaumont</column>
+            <column name="name_new">Boulevard De La Villette</column>
+            <column name="id">19</column>
+            <column name="name">Selbständig</column>
+        </table>
+        <table name="persons">
+            <column name="surname">Homburger</column>
+            <column name="first_name">NULL</column>
+            <column name="profession_verbatim">Weinwirth</column>
+            <column name="houseno">56</column>
+            <column name="name_old_clean">Boulevard De La Butte Chaumont</column>
+            <column name="name_new">Boulevard De La Villette</column>
+            <column name="id">19</column>
+            <column name="name">Selbständig</column>
+        </table>
+        <table name="persons">
+            <column name="surname">Kobbus</column>
+            <column name="first_name">NULL</column>
+            <column name="profession_verbatim">Weinwirth</column>
+            <column name="houseno">64</column>
+            <column name="name_old_clean">Boulevard De La Butte Chaumont</column>
+            <column name="name_new">Boulevard De La Villette</column>
+            <column name="id">19</column>
+            <column name="name">Selbständig</column>
+        </table>
+        <table name="persons">
+            <column name="surname">Kolbus</column>
+            <column name="first_name">NULL</column>
+            <column name="profession_verbatim">Weinwirth</column>
+            <column name="houseno">12</column>
+            <column name="name_old_clean">Rue D' Allemagne</column>
+            <column name="name_new">Avenue Jean Jaurès</column>
+            <column name="id">19</column>
+            <column name="name">Selbständig</column>
+        </table>
+        <table name="persons">
+            <column name="surname">Melanger</column>
+            <column name="first_name">NULL</column>
+            <column name="profession_verbatim">Weinwirth</column>
+            <column name="houseno">8</column>
+            <column name="name_old_clean">Rue D' Allemagne</column>
+            <column name="name_new">Avenue Jean Jaurès</column>
+            <column name="id">19</column>
+            <column name="name">Selbständig</column>
+        </table>
+        <table name="persons">
+            <column name="surname">Hembert</column>
+            <column name="first_name">NULL</column>
+            <column name="profession_verbatim">Speckhändler</column>
+            <column name="houseno">26</column>
+            <column name="name_old_clean">Rue D' Allemagne</column>
+            <column name="name_new">Avenue Jean Jaurès</column>
+            <column name="id">19</column>
+            <column name="name">Handel</column>
+        </table>
+        <table name="persons">
+            <column name="surname">Heß</column>
+            <column name="first_name">NULL</column>
+            <column name="profession_verbatim">Kladaunenhöcker</column>
+            <column name="houseno">149</column>
+            <column name="name_old_clean">Rue D' Allemagne</column>
+            <column name="name_new">Avenue Jean Jaurès</column>
+            <column name="id">19</column>
+            <column name="name">Handel</column>
+        </table>
+        <table name="persons">
+            <column name="surname">Kiefer</column>
+            <column name="first_name">NULL</column>
+            <column name="profession_verbatim">Eigenthümer</column>
+            <column name="houseno">63</column>
+            <column name="name_old_clean">Rue D' Allemagne</column>
+            <column name="name_new">Avenue Jean Jaurès</column>
+            <column name="id">19</column>
+            <column name="name">Rentner</column>
+        </table>
+        <table name="persons">
+            <column name="surname">Leouard</column>
+            <column name="first_name">NULL</column>
+            <column name="profession_verbatim">Weinwirth</column>
+            <column name="houseno">15</column>
+            <column name="name_old_clean">Rue D' Allemagne</column>
+            <column name="name_new">Avenue Jean Jaurès</column>
+            <column name="id">19</column>
+            <column name="name">Handwerk</column>
+        </table>
+        <table name="persons">
+            <column name="surname">Schmidt</column>
+            <column name="first_name">NULL</column>
+            <column name="profession_verbatim">Specereihändler</column>
+            <column name="houseno">89</column>
+            <column name="name_old_clean">Rue D' Allemagne</column>
+            <column name="name_new">Avenue Jean Jaurès</column>
+            <column name="id">19</column>
+            <column name="name">Handel</column>
+        </table>
+        <table name="persons">
+            <column name="surname">Rittel</column>
+            <column name="first_name">NULL</column>
+            <column name="profession_verbatim">Schneider</column>
+            <column name="houseno">64</column>
+            <column name="name_old_clean">Rue D' Allemagne</column>
+            <column name="name_new">Avenue Jean Jaurès</column>
+            <column name="id">19</column>
+            <column name="name">Handwerk</column>
+        </table>
+        <table name="persons">
+            <column name="surname">Krier</column>
+            <column name="first_name">NULL</column>
+            <column name="profession_verbatim">Weinwirth</column>
+            <column name="houseno">1</column>
+            <column name="name_old_clean">Rue De Marseille Prolongée</column>
+            <column name="name_new">Rue De Crimée</column>
+            <column name="id">19</column>
+            <column name="name">Selbständig</column>
+        </table>
+        <table name="persons">
+            <column name="surname">Marx</column>
+            <column name="first_name">NULL</column>
+            <column name="profession_verbatim">Weinwirtschaft</column>
+            <column name="houseno">31</column>
+            <column name="name_old_clean">Rue De Meaux</column>
+            <column name="name_new">Rue De Meaux</column>
+            <column name="id">19</column>
+            <column name="name">Selbständig</column>
+        </table>
+        <table name="persons">
+            <column name="surname">Stoffel</column>
+            <column name="first_name">NULL</column>
+            <column name="profession_verbatim">Weinwirth</column>
+            <column name="houseno">37</column>
+            <column name="name_old_clean">Rue De Meaux</column>
+            <column name="name_new">Rue De Meaux</column>
+            <column name="id">19</column>
+            <column name="name">Selbständig</column>
+        </table>
+        <table name="persons">
+            <column name="surname">Steier</column>
+            <column name="first_name">NULL</column>
+            <column name="profession_verbatim">Schuhmacher</column>
+            <column name="houseno">74</column>
+            <column name="name_old_clean">Rue De Meaux</column>
+            <column name="name_new">Rue De Meaux</column>
+            <column name="id">19</column>
+            <column name="name">Handwerk</column>
+        </table>
+        <table name="persons">
+            <column name="surname">Gaudard</column>
+            <column name="first_name">NULL</column>
+            <column name="profession_verbatim">Fruchthändler</column>
+            <column name="houseno">10</column>
+            <column name="name_old_clean">Rue De Meaux</column>
+            <column name="name_new">Rue De Meaux</column>
+            <column name="id">19</column>
+            <column name="name">Handel</column>
+        </table>
+        <table name="persons">
+            <column name="surname">Jungblut</column>
+            <column name="first_name">NULL</column>
+            <column name="profession_verbatim">Kohlenhändler</column>
+            <column name="houseno">19</column>
+            <column name="name_old_clean">Rue De Meaux</column>
+            <column name="name_new">Rue De Meaux</column>
+            <column name="id">19</column>
+            <column name="name">Handel</column>
+        </table>
+        <table name="persons">
+            <column name="surname">Weiß</column>
+            <column name="first_name">NULL</column>
+            <column name="profession_verbatim">Weinwirth</column>
+            <column name="houseno">7</column>
+            <column name="name_old_clean">Rue De Rouen</column>
+            <column name="name_new">Rue De Rouen</column>
+            <column name="id">19</column>
+            <column name="name">Selbständig</column>
+        </table>
+        <table name="persons">
+            <column name="surname">Deutsch</column>
+            <column name="first_name">Alexander</column>
+            <column name="profession_verbatim">Ochsenfußölfabrik</column>
+            <column name="houseno">52</column>
+            <column name="name_old_clean">Rue De Flandre</column>
+            <column name="name_new">Avenue De Flandre</column>
+            <column name="id">19</column>
+            <column name="name">Handwerk</column>
+        </table>
+        <table name="persons">
+            <column name="surname">Eglaff</column>
+            <column name="first_name">NULL</column>
+            <column name="profession_verbatim">Bäcker</column>
+            <column name="houseno">51</column>
+            <column name="name_old_clean">Rue De Flandre</column>
+            <column name="name_new">Avenue De Flandre</column>
+            <column name="id">19</column>
+            <column name="name">Handwerk</column>
+        </table>
+        <table name="persons">
+            <column name="surname">Luxenburger</column>
+            <column name="first_name">NULL</column>
+            <column name="profession_verbatim">Stiefelmacher</column>
+            <column name="houseno">69</column>
+            <column name="name_old_clean">Rue De Flandre</column>
+            <column name="name_new">Avenue De Flandre</column>
+            <column name="id">19</column>
+            <column name="name">Handwerk</column>
+        </table>
+        <table name="persons">
+            <column name="surname">Wölfel</column>
+            <column name="first_name">August</column>
+            <column name="profession_verbatim">Niederlage Straßburger Brückenwaagen</column>
+            <column name="houseno">70</column>
+            <column name="name_old_clean">Rue De Flandre</column>
+            <column name="name_new">Avenue De Flandre</column>
+            <column name="id">19</column>
+            <column name="name">Handel</column>
+        </table>
+        <table name="persons">
+            <column name="surname">Frimann</column>
+            <column name="first_name">NULL</column>
+            <column name="profession_verbatim">Weinhändler</column>
+            <column name="houseno">16</column>
+            <column name="name_old_clean">Boulevard De La Villette</column>
+            <column name="name_new">Boulevard De La Villette</column>
+            <column name="id">19</column>
+            <column name="name">Handel</column>
+        </table>
+        <table name="persons">
+            <column name="surname">Haintz</column>
+            <column name="first_name">NULL</column>
+            <column name="profession_verbatim">Zündhölzchenfabrik</column>
+            <column name="houseno">28</column>
+            <column name="name_old_clean">Chemin Des Carrières</column>
+            <column name="name_new">Rue Sadi-lecointe</column>
+            <column name="id">19</column>
+            <column name="name">Handwerk</column>
+        </table>
+        <table name="persons">
+            <column name="surname">Catharine</column>
+            <column name="first_name">NULL</column>
+            <column name="profession_verbatim">Fruchthändlerin</column>
+            <column name="houseno">2</column>
+            <column name="name_old_clean">Impasse Saint-nicolas</column>
+            <column name="name_new">Rue De Chaumont</column>
+            <column name="id">19</column>
+            <column name="name">Handel</column>
+        </table>
+        <table name="persons">
+            <column name="surname">Keller</column>
+            <column name="first_name">NULL</column>
+            <column name="profession_verbatim">Fruchthändler</column>
+            <column name="houseno">4</column>
+            <column name="name_old_clean">Impasse Saint-nicolas</column>
+            <column name="name_new">Rue De Chaumont</column>
+            <column name="id">19</column>
+            <column name="name">Handel</column>
+        </table>
+        <table name="persons">
+            <column name="surname">Isaak</column>
+            <column name="first_name">NULL</column>
+            <column name="profession_verbatim">Fruchthändler</column>
+            <column name="houseno">3</column>
+            <column name="name_old_clean">Passage Sauvage</column>
+            <column name="name_new">Rue Clovis-hugues</column>
+            <column name="id">19</column>
+            <column name="name">Handel</column>
+        </table>
+        <table name="persons">
+            <column name="surname">Rillard</column>
+            <column name="first_name">NULL</column>
+            <column name="profession_verbatim">Fruchthändler</column>
+            <column name="houseno">4</column>
+            <column name="name_old_clean">Passage Sauvage</column>
+            <column name="name_new">Rue Clovis-hugues</column>
+            <column name="id">19</column>
+            <column name="name">Handel</column>
+        </table>
+        <table name="persons">
+            <column name="surname">Leindorf</column>
+            <column name="first_name">NULL</column>
+            <column name="profession_verbatim">Fruchthändler</column>
+            <column name="houseno">14</column>
+            <column name="name_old_clean">Passage Sauvage</column>
+            <column name="name_new">Rue Clovis-hugues</column>
+            <column name="id">19</column>
+            <column name="name">Handel</column>
+        </table>
+        <table name="persons">
+            <column name="surname">Martin</column>
+            <column name="first_name">NULL</column>
+            <column name="profession_verbatim">Eigenthümer</column>
+            <column name="houseno">19</column>
+            <column name="name_old_clean">Passage Sauvage</column>
+            <column name="name_new">Rue Clovis-hugues</column>
+            <column name="id">19</column>
+            <column name="name">Rentner</column>
+        </table>
+        <table name="persons">
+            <column name="surname">Gorgen</column>
+            <column name="first_name">NULL</column>
+            <column name="profession_verbatim">Fruchthändler</column>
+            <column name="houseno">11</column>
+            <column name="name_old_clean">Passage Sauvage</column>
+            <column name="name_new">Rue Clovis-hugues</column>
+            <column name="id">19</column>
+            <column name="name">Handel</column>
+        </table>
+        <table name="persons">
+            <column name="surname">Perrin</column>
+            <column name="first_name">NULL</column>
+            <column name="profession_verbatim">Fruchthändler</column>
+            <column name="houseno">1</column>
+            <column name="name_old_clean">Passage Sauvage</column>
+            <column name="name_new">Rue Clovis-hugues</column>
+            <column name="id">19</column>
+            <column name="name">Handel</column>
+        </table>
+        <table name="persons">
+            <column name="surname">Walter</column>
+            <column name="first_name">NULL</column>
+            <column name="profession_verbatim">NULL</column>
+            <column name="houseno">90</column>
+            <column name="name_old_clean">Rue De Paris</column>
+            <column name="name_new">Rue De Belleville</column>
+            <column name="id">19</column>
+            <column name="name">Unbekannt</column>
+        </table>
+    </database>
+</pma_xml_export>
