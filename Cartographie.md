@@ -26,7 +26,7 @@ Il est possible de d'implémenter cette carte sur notre cartographie interractiv
  
 2) Les quartiers et arrondissements
 
-Pour enrichir l'étude diachronique de l'espace Parisien, les données vecteurs des arrondissements de Paris, avant et après 1860, ont été rajoutés ainsi que le découpages de quartiers de l'époque. Les données porviennent du projet [ALPAGE](https://alpage.huma-num.fr/) du [LaMOP](https://lamop.pantheonsorbonne.fr/) de Paris 1 Panthéon-Sorbonne. 
+Pour enrichir l'étude diachronique de l'espace Parisien, les données vecteurs des arrondissements de Paris, avant et après 1860, ont été rajoutés ainsi que le découpages de quartiers de l'époque. Les données proviennent du projet [ALPAGE](https://alpage.huma-num.fr/) du [LaMOP](https://lamop.pantheonsorbonne.fr/) de Paris 1 Panthéon-Sorbonne. 
 Lorsqu'on navigue sur leur plateforme de webmapping, il est possible de téléchager les données du projet dans différents formats. Les données ont été téléchargées au format Shapefile.  
 Pour ajouter les données sur notre carte, on utilise le plugin [Leaflet.shapefile](https://github.com/calvinmetcalf/leaflet.shapefile), ce plugin est très utile car il suffit d'indiquer le chemin du dossier Zip contenant les dossiers shapefile et le plugin s'occupe de la suite pour l'affichage des données sur la carte. On ajoute ensuite les vecteurs dans le L.control.layer pour choisir de les voir ou non sur la cartographie.
 
