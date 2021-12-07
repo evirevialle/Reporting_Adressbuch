@@ -11,7 +11,7 @@ Il est possible que certaines rues aient disparues avec les transformations de P
 Une fois, les indidividus d'Adressbuch placés sur la carte moderne Paris, il fallait trouver le moyen de pouvoir comparer cette carte  
 moderne avec une carte historique. En effet, dans un projet hsitorique comme celui-ci, il est  essentiel de pouvoir comparer les deux  
 temporalités pour voir les changements opérés dans Paris entre le XIXe et XXIe siècle.  
-Une étude diachronique de l'espace Parisien s'ouvre alors pour l'utilisateur ou/et l'utilisatrice avec un choix de visulaisation entre carte moderne et carte d'époque. (voir Johanna Drucker 2011).  
+Une étude diachronique de l'espace Parisien s'ouvre alors pour l'utilisateur ou/et l'utilisatrice avec un choix de visualisation entre carte moderne et carte d'époque. (voir Johanna Drucker 2011).  
 
 ### La mise en place de la cartographie
 
