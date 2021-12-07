@@ -1,4 +1,4 @@
-## Cartographie du projet Adressbuch
+# Cartographie du projet Adressbuch
 
 <img src=" /../screenshots/map.png" width="70%" title="map_adressbuch"></img>
 
