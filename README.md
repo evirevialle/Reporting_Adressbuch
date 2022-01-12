@@ -8,7 +8,7 @@ A project by Deutsches Historisches Institut Paris (DHIP), Department for Digita
 
 Website of the DHIP: https://www.dhi-paris.fr/home.html
 
-Website of the Department: https://www.dhi-paris.fr/fr/recherche/histoire-numerique.html
+Website of the Department: https://www.dhi-paris.fr/de/forschung/digitale-geschichtswissenschaft.html
 
 Full sources : https://doi.org/10.5281/zenodo.5524880
 
