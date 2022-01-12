@@ -6,7 +6,7 @@
 
 Le projet Adressbuch utilise deux temporalités, celle de 1854, au moment où l'annuaire des allemands à Paris a été publié et la temporalité actuelle.
 La temporalité actuelle est nécessaire parce-qu'elle permet de placer nos individus sur une cartographie interractive.  
-Les anciennes rues de Paris ont été retrouvées avec leurs noms actuels et ainsi savoir où se situaient les allemands dans Paris en 1854 (voir Jacques Hillairet 1963).
+Les anciennes rues de Paris ont été retrouvées avec leurs noms actuels et permet ainsi de savoir où se situaient les allemands dans Paris en 1854 (voir Jacques Hillairet 1963).
 Il est possible que certaines rues aient disparues avec les transformations de Paris dans les anneés 1860 avec les travaux de Hausmann.  
 Une fois, les indidividus d'Adressbuch placés sur la carte moderne Paris, il fallait trouver le moyen de pouvoir comparer cette carte  
 moderne avec une carte historique. En effet, dans un projet hsitorique comme celui-ci, il est  essentiel de pouvoir comparer les deux  
