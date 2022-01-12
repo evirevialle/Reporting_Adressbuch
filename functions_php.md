@@ -21,7 +21,8 @@ Une fonction semblable à celle créée pour les images permet de voir les OCR d
 
 **5) Persons et Companies View**
 
-Une fonction a été créée pour l'affichage des professions_verbatims et des professions_unified. Si une professions_verbatim est égal à une professions_unified alors la fonction se chargera d'afficher uniquement professions_verbatims dans l'onglet **beruf** de la **View** d'une personne. En revanche, si une professions_verbatim est différent d'une professions_unified alors la fonction va créer un tableau dans la **View** de la personne avec les deux termes côte à côte.
+Une fonction a été créée pour l'affichage des professions_verbatims et des professions_unified. Si une professions_verbatim est égal à une professions_unified alors la fonction se chargera d'afficher uniquement professions_verbatims dans l'onglet **beruf** de la **View** d'une personne. En revanche, si une professions_verbatim est différent d'une professions_unified alors la fonction va créer un tableau dans la **View** de la personne avec les deux termes côte à côte.  
+Dans le code php, cela se traduit par l'application de la condition *if(variable = ...){ code }else{ code }*.
 
 
   
