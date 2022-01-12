@@ -19,8 +19,8 @@ Le personnel de la bibliothèque a accepté de nous prêter le livre pour que no
 
 La numérisation s'est faite à la [Bibiliothèque de l'Insititut Historique Allemand de Paris](https://www.dhi-paris.fr/fr/bibliotheque/apercu.html) avec un scanner concu pour ce type de mission. Le format que nous avons choisis est du JPEG, ce format est idéal pour mettre les numérisations en ligne par la suite.  
 Nous avons choisis une résolution de 300dpi, celle-ci permet une consultation et une impression de haute qualité.  
-L'objectif de cette mission est d'obtenir des numérisations de qualité pour que les historiens mais aussi les internautes puissent consulter les pages de l'annuaire. L'idée est que pour chaque personne, nous puissions consulter la page qui lui corresponde.  
-Le document primaire n'est pas oublié au détriment des nouvelles technologies.
+L'objectif de cette mission est d'obtenir des numérisations de qualité pour que les historiens mais aussi les internautes puissent consulter les pages de l'annuaire. L'idée est que pour chaque individu, nous puissions consulter la page qui lui correspond.  
+Le document primaire n'est pas oubié et cohabite avec les nouveaux dispositifs de consultation.
 
 **III) Un document exceptionnel**
 
