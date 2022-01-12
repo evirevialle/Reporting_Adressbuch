@@ -11,7 +11,7 @@ Il est possible que certaines rues aient disparues avec les transformations de P
 Une fois, les indidividus d'Adressbuch placés sur la carte moderne Paris, il fallait trouver le moyen de pouvoir comparer cette carte  
 moderne avec une carte historique. En effet, dans un projet hsitorique comme celui-ci, il est  essentiel de pouvoir comparer les deux  
 temporalités pour voir les changements opérés dans Paris entre le XIXe et XXIe siècle.  
-Une étude diachronique de l'espace Parisien s'ouvre alors pour l'utilisateur ou/et l'utilisatrice avec un choix de visualisation entre carte moderne et carte d'époque. (voir Johanna Drucker 2011).  
+Une étude diachronique de l'espace Parisien s'ouvre alors pour l'utilisateur ou/et l'utilisatrice avec un choix de visualisation entre carte moderne et carte d'époque. 
 
 ### La mise en place de la cartographie
 
@@ -35,8 +35,7 @@ Pour ajouter les données sur notre carte, on utilise le plugin [Leaflet.shapefi
 Pour enrichir la carte interractive, de nouvelles fonctionnalités ont été ajoutées à la carte. En premier lieu, le plugin [Opacity.Control](https://github.com/lizardtechblog/Leaflet.OpacityControls) a été rajouter. Ce dernier, permet de superposer la carte moderne et historique en réglant l'opacité avec un curseur disponible sur la carte. Cela permet se rendre compte de la transformation de Paris en 170 ans. Le plugin [Leaflet.Fullscreen](https://github.com/Leaflet/Leaflet.fullscreen) a été ajouté pour afficher la carte en plein-écran et permettre une meilleure visualisation des données. Enfin, le plugin [Leaflet.sidebar](https://github.com/turbo87/sidebar-v2/) a été également mis sur la carte. Ce dernier permet d'avoir des informations complémentaires grâce à une barre de naviagtion interractive. Il permet de télecharger les données vecteur du projet.
 
 
-
-*  Johanna Drucker. Humanities Approaches to Graphical Display, in : Digital Humanities Quarterly 5.1 (2011), p. 1-21.  
+  
 *  Jacques Hillairet, Dictionnaire Historique des rues de Paris, 1963
 
 
