@@ -12,8 +12,13 @@ Pour la mise en place des balises Zotero, des fonctions pour chaque élément de
   
 **3) L'affichage des images**
 
-Le principe est le même pour la visualisation des images. Une fonction PHP permet la construction d'une balise img en HTML avec différentes variables. Ces variables modifient le numéro de page numérisé selon la personne ou companie sélectionées. Les images sont d'abord affichées en vignette avec les autres informations dans une dimension et résolution réduites. Le visiteur peut choisir de visualiser la page en HD en la sélectionnant ou en cliquant sur le bouton prévu à cet effet. L'image s'ouvre alors dans une nouvelle fenêtre dans une haute définition destiné à la consultation ou à l'impression.  
+Une fonction PHP permet la construction d'une balise img en HTML avec différentes variables. Ces variables modifient le numéro de page numérisé selon la personne ou companie sélectionées. Les images sont d'abord affichées en vignette avec les autres informations dans une dimension et résolution réduites. Le visiteur peut choisir de visualiser la page en HD en la sélectionnant ou en cliquant sur le bouton prévu à cet effet. L'image s'ouvre alors dans une nouvelle fenêtre dans une haute définition destiné à la consultation ou à l'impression.  
 Les images ont la possibilité d'être enregistrées sur Zotero avec l'aide de balise span comme pour les personnes. On obtient le nom de l'auteur, la côte de l'image, le numéro de page ainsi que l'URL pour trouver l'image.
+
+**4) L'affichage des océrisations**
+
+Une fonction semblable à celle créée pour les images permet de voir les océrisations dans un nouvel onglet au format texte. On va créer un constructeur avec une balise **object** pour afficher le contenu textuel d'une image. Ces océrisations sont un appui pour les visiteurs mais le processus d'OCRisations a laissé de nombreuses erreurs. Ces erreurs sont dû au fait que les pages d'Adressbuch sont sur deux colonnes et en deux polices de caractères fraktur pour l'allemand et une police "classique" pour le francais.
+
   
 * _voir [ici](https://github.com/evirevialle/Adressbuch1854/tree/master/templates/functions) les fonctions et variables créées dans le cadre du projet Adressbuch_  
 * _voir [ici](Extraction_metadonnees_redimensionnement.md) l'étape précédente d'extraction et de redimensionnement_
