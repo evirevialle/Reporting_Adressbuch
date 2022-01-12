@@ -22,7 +22,7 @@ Les premiers tests ont été effectués en local pour voir le fonctionnement de 
 Pour cela, il faut disposer d'un serveur local SQL, ici c'est avec l'application [MAMP](https://www.mamp.info/fr/mamp/windows/). Enfin avec Cakephp, il faut activer le serveur local en ligne de commande.  
 Il suffit d'exécuter **'chemin_vers_l'application/nom_application/bin/cake server'** en ligne de commande.  
 [WAMPserver](https://www.wampserver.com/) est plus simple d'utilisation pour faire du développement web sous windows. Il suffit de placer son application dans le dossier **www** de WAMP.  
-Lors du lancement, une page ne fonctionnait pas à cause de la clause **ONLY_FULL_GROUP_BY** dans la variable **sqlmode** de phpMyAdmin, il suffit d'effacer la clause de la variable pour que la page fonctionne. 
+Lors du lancement, une page ne fonctionnait pas à cause de la clause **ONLY_FULL_GROUP_BY** dans la variable **sqlmode** de phpMyAdmin, il suffit d'effacer la clause de la variable pour que la page fonctionne (ce probléme ne concernait que l'application en local et non sur le serveur de l'IDH).
 
 * *pour plus d'informations à propos de [Cakephp 4x](https://book.cakephp.org/4/en/index.html)*.
 * *voir [ici](Integration_des_donnees.md) l'étape précédente d'intégration des données*
