@@ -19,7 +19,7 @@ Les images ont la possibilité d'être enregistrées sur Zotero avec l'aide de b
 
 Une fonction semblable à celle créée pour les images permet de voir les OCR dans un nouvel onglet au format texte. On va créer un constructeur avec une balise **object** pour afficher le contenu textuel d'une image. Ces OCR sont un appui pour les visiteurs mais le processus d'OCRisations a laissé de nombreuses erreurs. Ces erreurs sont dû au fait que les pages d'Adressbuch sont sur deux colonnes et en deux polices de caractères fraktur pour l'allemand et une police "classique" pour le francais.
 
-**5) Persons et Companies View
+**5) Persons et Companies View**
 
 Une fonction a été créée pour l'affichage des professions_verbatims et des professions_unified. Si une professions_verbatim est égal à une professions_unified alors la fonction se chargera d'afficher uniquement professions_verbatims dans l'onglet **beruf** de la **View** d'une personne. En revanche, si une professions_verbatim est différent d'une professions_unified alors la fonction va créer un tableau dans la **View** de la personne avec les deux termes côte à côte.
 
