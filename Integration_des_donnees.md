@@ -19,7 +19,9 @@ Pour éviter la moindre perte du travail, une sauvegarde de la base est effectu�
 Pour éviter des erreurs lors de l'intégration des données, les tables courantes qui continnent les données sont importées en premier puis les tables associatives qui assurent les jointures entre les tables courantes. 
 Déselectionnez **verification des clés étrangères** quand ces dernières sont déjà créées.  
 Lorsque que les données sont intégrées avec la vérification activée, nous avons une erreur à cause d'une contrainte de clé étrangère.
-Les tables ont été importées avec succès, pour vérifier que les jointures étaient bien effectuées, des requêtes SQL impliquant différentes tables ont été formulées. 
+Les tables ont été importées avec succès, pour vérifier que les jointures étaient bien effectuées, des requêtes SQL impliquant différentes tables ont été formulées.  
+
+De nouvelles colonnes ont été créées par la suite, il s'agit des colonnes *professions_unified* dans les tables **persons** et **companies**. Ces colonnes uniformisent les métiers dans Adressbuch pour rassembler les métiers dans différents groupes (ex : professions_verbatim => deutsch lehrer, professions_unified => lehrer).
 
  * *voir [ici](Nettoyage_Open_Refine.md) l'étape précédente sur le nettoyage des données avec Open Refine.*
  * *les tables SQL de Adressbuch sont disponibles [ici](adressbuch1854.sql)*
