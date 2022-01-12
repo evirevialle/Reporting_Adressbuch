@@ -14,7 +14,7 @@ Le schéma n'est pas nécessaire quand les tables sont créées dans la base de 
 
 **III) Intégration des données**
 
-La prochaine étape consiste à importer les fichier SQL créés dans notre base de données, elle est gérée par [phpMyAdmin](https://www.phpmyadmin.net/). 
+La prochaine étape consiste à importer les fichier SQL créés dans notre base de données, la base de données a été créé avec MySQL et elle est gérée avec l'interface graphique [phpMyAdmin](https://www.phpmyadmin.net/). 
 Pour éviter la moindre perte du travail, une sauvegarde de la base est effectuée pour pouvoir la recréer si un problème survenait.   
 Pour éviter des erreurs lors de l'intégration des données, les tables courantes qui continnent les données sont importées en premier puis les tables associatives qui assurent les jointures entre les tables courantes. 
 Déselectionnez **verification des clés étrangères** quand ces dernières sont déjà créées.  
